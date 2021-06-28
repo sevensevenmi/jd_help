@@ -1,3 +1,52 @@
+<p align="center">
+  <a href="https://github.com/whyour/qinglong">
+    <img width="150" src="https://qinglong.whyour.cn/qinglong.png">
+  </a>
+</p>
+
+<h1 align="center">青龙(WIP)</h1>
+
+<div align="center">
+
+python和javaScript的定时任务管理面板
+
+[![donate][donate-image]][donate-url] [![build status][build-status-image]][build-status-url] [![docker pulls][docker-pulls-image]][docker-pulls-url] [![docker version][docker-version-image]][docker-version-url] [![docker stars][docker-stars-image]][docker-stars-url] [![docker image size][docker-image-size-image]][docker-image-size-url]
+
+[donate-image]: https://img.shields.io/badge/donate-wechat-green?style=for-the-badge
+[donate-url]: https://qinglong.whyour.cn/nice.png
+[build-status-image]: https://img.shields.io/docker/cloud/build/whyour/qinglong?style=for-the-badge
+[build-status-url]: https://img.shields.io/docker/cloud/build/whyour/qinglong
+[docker-pulls-image]: https://img.shields.io/docker/pulls/whyour/qinglong?style=for-the-badge
+[docker-pulls-url]: https://hub.docker.com/r/whyour/qinglong
+[docker-version-image]: https://img.shields.io/docker/v/whyour/qinglong?style=for-the-badge
+[docker-version-url]: https://hub.docker.com/r/whyour/qinglong/tags?page=1&ordering=last_updated
+[docker-stars-image]: https://img.shields.io/docker/stars/whyour/qinglong?style=for-the-badge
+[docker-stars-url]: https://hub.docker.com/r/whyour/qinglong
+[docker-image-size-image]: https://img.shields.io/docker/image-size/whyour/qinglong?style=for-the-badge
+[docker-image-size-url]: https://hub.docker.com/r/whyour/qinglong
+
+</div>
+
+青龙，又名苍龙，在中国传统文化中是四象之一、[天之四灵](https://zh.wikipedia.org/wiki/%E5%A4%A9%E4%B9%8B%E5%9B%9B%E7%81%B5)之一，根据五行学说，它是代表东方的灵兽，为青色的龙，五行属木，代表的季节是春季，八卦主震。苍龙与应龙一样，都是身具羽翼。《张果星宗》称“又有辅翼，方为真龙”。
+
+《后汉书·律历志下》记载：日周于天，一寒一暑，四时备成，万物毕改，摄提迁次，青龙移辰，谓之岁。
+
+在中国[二十八宿](https://zh.wikipedia.org/wiki/%E4%BA%8C%E5%8D%81%E5%85%AB%E5%AE%BF)中，青龙是东方七宿（角、亢、氐、房、心、尾、箕）的总称。 在早期星宿信仰中，祂是最尊贵的天神。 但被道教信仰吸纳入其神系后，神格大跌，道教将其称为“孟章”，在不同的道经中有“帝君”、“圣将”、“神将”和“捕鬼将”等称呼，与白虎监兵神君一起，是道教的护卫天神。
+
+## 多谢
+
+* [nevinee](https://gitee.com/evine)
+
+* [crontab-ui](https://github.com/alseambusher/crontab-ui)
+
+* [Ant Design](https://ant.design)
+
+* [Ant Design Pro](https://pro.ant.design/)
+
+* [Umijs3.0](https://umijs.org)
+
+* [darkreader](https://github.com/darkreader/darkreader)
+
 ## 免责声明
 
 1. 此仓储脚本仅用于学习研究，不保证其合法性、准确性、有效性，请根据情况自行判断，本人对此不承担任何保证责任。
