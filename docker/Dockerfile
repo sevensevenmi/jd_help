@@ -7,7 +7,7 @@ ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
     SHELL=/bin/bash \
     PS1="\u@\h:\w \$ " \
     QL_DIR=/ql
-WORKDIR ${QL_DIR}    
+WORKDIR ${QL_DIR}
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories \
     && apk update -f \
     && apk upgrade \
@@ -24,14 +24,6 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
                              python3 \
                              jq \
                              openssh \
-                             build-base \
-                             g++ \
-                             cairo-dev \
-                             jpeg-dev \
-                             pango-dev \
-                             giflib-dev \
-                             png-js \
-                             canvas \
     && rm -rf /var/cache/apk/* \
     && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && echo "Asia/Shanghai" > /etc/timezone \
@@ -41,7 +33,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
     && cd ${QL_DIR} \
     && cp -f .env.example .env \
     && chmod 777 ${QL_DIR}/shell/*.sh \
-    && chmod 777 ${QL_DIR}/docker/docker-entrypoint.sh \   
+    && chmod 777 ${QL_DIR}/docker/*.sh \
     && npm install -g pm2 \
     && npm install -g pnpm \
     && rm -rf /root/.npm \
