@@ -275,7 +275,7 @@ update_qinglong() {
         cd ${ql_static_repo}
         git fetch --all
         exit_status=$?
-        git reset --hard origin/dev
+        git reset --hard origin/master
         cd $dir_root
     else
         git_clone_scripts ${url} ${ql_static_repo}
