@@ -273,7 +273,7 @@ update_qinglong() {
     if [ -d ${ql_static_repo}/.git ]; then
         reset_romote_url ${ql_static_repo} ${url}
         cd ${ql_static_repo}
-        git fetch --dev
+        git fetch --all
         exit_status=$?
         git reset --hard origin/master
         cd $dir_root
