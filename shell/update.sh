@@ -269,13 +269,13 @@ update_qinglong() {
         echo -e "\n更新$dir_root失败，请检查原因...\n"
     fi
 
-    local url="${github_proxy_url}https://github.com/whyour/qinglong-static.git"
+    local url="${github_proxy_url}https://github.com/nxppru/jd_help-static.git"
     if [ -d ${ql_static_repo}/.git ]; then
         reset_romote_url ${ql_static_repo} ${url}
         cd ${ql_static_repo}
         git fetch --all
         exit_status=$?
-        git reset --hard origin/master
+        git reset --hard origin/dev
         cd $dir_root
     else
         git_clone_scripts ${url} ${ql_static_repo}
