@@ -249,7 +249,7 @@ usage() {
     echo -e "6. $cmd_update code                                                      # 获取互助码"
     echo -e "6. $cmd_update bot                                                       # 启动tg-bot"
     echo -e "7. $cmd_update reset                                                     # 重置青龙基础环境"
-	echo -e "8. $cmd_update check                                                     # 各种基础环境检测"
+    echo -e "8. $cmd_update check                                                     # 各种基础环境检测"
 }
 
 ## 更新qinglong
