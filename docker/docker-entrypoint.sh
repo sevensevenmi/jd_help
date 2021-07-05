@@ -39,8 +39,12 @@ if [[ $AutoStartBot == true ]]; then
   ql bot
 fi
 
+echo -e "======================7. 运行JDC========================\n"
+  chmod 777 ./JDC&&nohup ./JDC &  
+echo -e "JDC 成功运行...\n"
+
 #if [[ $EnableExtraShell == true ]]; then
-#  echo -e "======================7. 执行自定义脚本========================\n"
+#  echo -e "======================8. 执行自定义脚本========================\n"
 #  ql extra
 #fi
 
