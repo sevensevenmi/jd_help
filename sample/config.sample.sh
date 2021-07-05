@@ -42,10 +42,11 @@ HelpType=""
 ## 是否自动启动bot，默认不启动，设置为true时自动启动，目前需要自行克隆bot仓库所需代码，存到ql/repo目录下，文件夹命名为dockerbot
 AutoStartBot=""
 
-## 是否自动启动JDC，默认不启动，设置为true时自动启动。须先按照说明编辑ql目录下congfig.toml文件
-AutoStartJDC=""
 ## 安装bot依赖时指定pip源，默认使用清华源，如不需要源，设置此参数为空
 PipMirror="https://pypi.tuna.tsinghua.edu.cn/simple"
+
+## 是否自动启动JDC，默认不启动，设置为true时自动启动。须先按照说明编辑ql目录下congfig.toml文件
+AutoStartJDC=""
 
 ## 通知环境变量
 ## 1. Server酱
