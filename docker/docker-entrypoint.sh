@@ -39,10 +39,10 @@ if [[ $AutoStartBot == true ]]; then
   ql bot
 fi
 
-if [[ $EnableExtraShell == true ]]; then
-  echo -e "======================7. 执行自定义脚本========================\n"
-  ql extra
-fi
+#if [[ $EnableExtraShell == true ]]; then
+#  echo -e "======================7. 执行自定义脚本========================\n"
+#  ql extra
+#fi
 
 echo -e "############################################################\n"
 echo -e "容器启动成功..."
