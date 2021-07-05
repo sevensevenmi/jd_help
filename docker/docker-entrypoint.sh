@@ -22,7 +22,7 @@ echo -e "======================4. 启动控制面板========================\n"
 if [[ $(pm2 info panel 2>/dev/null) ]]; then
   pm2 reload panel
 else
-  pm2 start $dir_root/build/app.js -n panel --source-map-support --time
+  pm2 start $dir_root/build/app.js -n panel
 fi
 echo -e "控制面板启动成功...\n"
 
