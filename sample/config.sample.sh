@@ -45,7 +45,9 @@ AutoStartBot=""
 ## 安装bot依赖时指定pip源，默认使用清华源，如不需要源，设置此参数为空
 PipMirror="https://pypi.tuna.tsinghua.edu.cn/simple"
 
-## 是否自动启动JDC，默认不启动，设置为true时自动启动。须先按照说明编辑ql目录下congfig.toml文件
+## 是否自动启动JDC，默认不启动，设置为true时自动启动。
+## 先根据自己的硬件平台类型，将JDC_AMD64、JDC_ARM、JDC_arm64其中之一重命名为：JDC
+## 按照说明编辑ql目录下congfig.toml文件
 AutoStartJDC=""
 
 ## 通知环境变量
