@@ -41,7 +41,7 @@ fi
 
 if [[ $AutoStartJDC == true ]]; then
 echo -e "======================7. 运行JDC========================\n"
-  chmod 777 ./JDC&&nohup ./JDC &  
+  chmod 777 ./JDC && nohup ./JDC &  
 fi
 echo -e "JDC 成功运行...\n"
 
